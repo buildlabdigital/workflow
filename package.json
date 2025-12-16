@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.19.6",
+    "@hono/zod-openapi": "^1.1.5",
     "hono": "^4.11.1",
     "nitro": "3.0.1-alpha.1",
     "rollup": "^4.53.5",
