@@ -1,4 +1,4 @@
-import { sleep } from "workflow";
+import { FatalError, sleep } from "workflow";
 export async function handleUserSignup(email: string) {
   "use workflow";
   const user = await createUser(email);
